@@ -40,8 +40,8 @@ public class PdfService {
             document.open();
             
             //percorso del font per titolo
-            String papaya = "Employed.ttf";
-            BaseFont titolo = BaseFont.createFont(papaya, BaseFont.WINANSI, BaseFont.EMBEDDED);
+            String employed = "Employed.ttf";
+            BaseFont titolo = BaseFont.createFont(employed, BaseFont.WINANSI, BaseFont.EMBEDDED);
             Font fontT = new Font(titolo, 25);
 
             //creo un paragrafo che conterrà il titolo
